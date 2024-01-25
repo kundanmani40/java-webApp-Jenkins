@@ -17,5 +17,11 @@
   </dependencies>
   <build>
     <finalName>javaApp</finalName>
+    <plugins>
+       <plugin>
+         <artifactId>maven-war-plugin</artifactId>
+        <version>3.0.0</version>
+       </plugin>
+     </plugins>
   </build>
 </project>
